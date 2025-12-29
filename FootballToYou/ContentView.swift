@@ -13,6 +13,7 @@ struct ContentView: View {
             Text("What is Football to You?")
                 .font(.largeTitle)
                 .fontWeight(.medium)
+                .foregroundStyle(.opacity(0.8))
             HStack {
                 Image(systemName: "figure.american.football")
                     .resizable()
